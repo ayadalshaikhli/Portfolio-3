@@ -66,11 +66,11 @@ gsap.from(".about", {
 
 gsap.from(".block-5", {
     scrollTrigger:{
-    trigger: ".block-5",
+    trigger: ".secound-section",
     toggleActions: "restart resume resume restart"
     } ,
     x: 600,
-    y: -400,
+    y: -300,
     delay: 3,
     duration: 3
 

@@ -118,6 +118,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-items: center;
   font-size: 80px;
   color: #cceabb;
 }
@@ -198,6 +199,21 @@ img {
   color: black;
   width: 90%;
   border-radius: 0px 50px 50px 0px;
+}
+/*  ===================
+    ===== Fifth-Section
+    =================== */
+.fifth-section {
+  height: 30vh;
+  width: 100vw;
+}
+
+.fifth-section .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  color: #777777;
 }
 
 /* Media */
@@ -310,8 +326,3 @@ img {
     padding-bottom: 200px;
   }
 }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-  
-} */
