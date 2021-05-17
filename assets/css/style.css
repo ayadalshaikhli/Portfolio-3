@@ -30,15 +30,12 @@ a {
 }
 
 /*  ===================
-    ===== Curso
-    =================== */
-
-/*  ===================
     ===== Nav-Bar
     =================== */
 .nav-link {
   margin-left: 70px;
 }
+
 /*  ===================
     ===== First-Section
     =================== */
@@ -85,6 +82,21 @@ img {
   font-size: 140px;
   color: #cceabb;
 }
+.social {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 22;
+  left: 0;
+}
+
+.social i {
+  margin-left: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
 /*  ===================
     ===== Secound-Section
@@ -92,6 +104,14 @@ img {
 .secound-section {
   height: 100vh;
   line-height: 50px;
+  padding-top: 100px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .title-1 {
@@ -114,16 +134,14 @@ img {
   font-size: 25px;
   max-height: 70vh;
 }
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
-.social i {
-  margin-left: 10px;
-  font-size: 30px;
+.text-1 {
+  font-size: 0.8em;
+  color: #777777;
+  display: flex;
+  flex-direction: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 /*  ===================
@@ -138,15 +156,21 @@ img {
 .apps {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  max-width: 100vw;
 }
 
 .apps .app-logo {
   max-width: 100px;
   max-height: 10%;
   margin: 0 auto;
+}
+
+.apps h2 {
+  color: #777777;
 }
 
 /*  ===================
@@ -166,12 +190,128 @@ img {
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: -100px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(0, 0, 0, 0.445);
   color: black;
-  width: 600px;
-  border-radius: 50px;
+  width: 90%;
+  border-radius: 0px 50px 50px 0px;
 }
+
+/* Media */
+
+@media (max-width: 576px) {
+  /* About Section */
+  .social {
+    top: 600px;
+    bottom: 600px;
+  }
+  .about {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    animation: none;
+    padding-left: 40px;
+  }
+  .about-me {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .text-1 {
+    flex-wrap: wrap;
+    max-width: 100vw;
+    padding: 3%;
+  }
+  /* Experience Section */
+  .third-section {
+    margin-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .ninth-app {
+    display: none;
+  }
+  .title-1 {
+    font-size: 1.8em;
+  }
+  .apps {
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100%;
+    padding-bottom: 200px;
+  }
+  .forth-section {
+    padding-left: 50px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    animation: none;
+  }
+  .about-me {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .text-1 {
+    flex-wrap: wrap;
+    max-width: 100vw;
+    padding: 1%;
+  }
+  /* Experience Section */
+  .third-section {
+    margin-top: 200px;
+  }
+  .title-1 {
+    font-size: 1.8em;
+  }
+  .apps {
+    max-width: 100vw;
+    max-height: 100%;
+    padding-bottom: 200px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .about {
+    flex-direction: row;
+  }
+  .about-me {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .text-1 {
+    flex-wrap: wrap;
+    max-width: 100vw;
+  }
+  /* Experience Section */
+  .third-section {
+    margin-top: 200px;
+  }
+  .title-1 {
+    font-size: 1.8em;
+  }
+  .apps {
+    max-width: 100vw;
+    max-height: 100%;
+    padding-bottom: 200px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  
+} */
