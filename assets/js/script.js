@@ -1,3 +1,6 @@
+import { gsap, CSSPlugin } from "gsap/all";
+ 
+gsap.registerPlugin(CSSPlugin)
 const tm = TweenMax;
 
 tm.to(".block-1", 2, {
