@@ -1,8 +1,4 @@
-
-
 const tm = TweenMax;
-
-
 
 tm.to(".block-1", 2, {
     x: "-280",
