@@ -1,14 +1,12 @@
 # Portfolio-3
 
-
-
 ## Project Ayad Al shaikhli portfolio
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://ayadalshaikhli.github.io/Portfolio-3/">
-    <img src="/assets/img/pagescreencapture.png" alt="screenshot" >
+    <img src="./assets/img/screens.png" alt="screenshot" >
   </a>
 
   <p align="center">
@@ -37,6 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
 This is my portfolio and my first work. I learned how to add animations and transitions to the website, how to use flex-box and z-index. I learned how to organize my CSS and HTML and add comments to make reading websites easier
 
 ### Built With
@@ -46,6 +45,7 @@ This is my portfolio and my first work. I learned how to add animations and tran
 - [CSS](https://www.google.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [GSAP](https://greensock.com/gsap)
+
 ## Credits
 
 1. https://www.w3schools.com/
