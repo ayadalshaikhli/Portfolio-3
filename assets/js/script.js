@@ -16,14 +16,14 @@ tm.to(".block-2", 2, {
 
 tm.to(".block-3", 2, {
   x: "180",
-  y: "-340",
+  y: "-240",
   scale: "1.6",
   ease: Expo.easeInOut,
 });
 
 tm.to(".block-4", 2, {
   x: "580",
-  y: "240",
+  y: "140",
   scale: "0.8",
   ease: Expo.easeInOut,
 });
