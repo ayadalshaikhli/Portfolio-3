@@ -61,7 +61,7 @@ tl.from(".fab", 1, {
 gsap.from(".about", {
   scrollTrigger: {
     trigger: ".about",
-    toggleActions: "restart resume restart resume",
+    toggleActions: "restart resume resume  resume",
   },
   opacity: 0,
   delay: 4,
@@ -71,7 +71,7 @@ gsap.from(".about", {
 gsap.from(".block-5", {
   scrollTrigger: {
     trigger: ".secound-section",
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume  resume ",
   },
   x: 600,
   y: -300,
@@ -86,7 +86,7 @@ gsap.from(".third-section", {
   scrollTrigger: {
     trigger: ".third-section",
 
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume resume ",
   },
   opacity: 0,
   delay: 1,
@@ -98,7 +98,7 @@ gsap.from(".title-1", {
   scrollTrigger: {
     trigger: ".third-section",
 
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume resume ",
   },
   y: -200,
   delay: 2,
@@ -109,7 +109,7 @@ gsap.from(".apps", {
   scrollTrigger: {
     trigger: ".third-section",
 
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume resume ",
   },
   y: 400,
   delay: 2,
@@ -123,7 +123,7 @@ gsap.from(".forth-section", {
   scrollTrigger: {
     trigger: ".forth-section",
 
-    toggleActions: "restart resume resume restart ",
+    toggleActions: "restart resume resume resume  ",
   },
   opacity: 0,
   delay: 1,
@@ -133,7 +133,7 @@ gsap.from(".forth-section", {
 gsap.from(".anim-left", {
   scrollTrigger: {
     trigger: ".anim-left",
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume resume ",
   },
   x: -200,
   delay: 2,
@@ -143,7 +143,7 @@ gsap.from(".anim-left", {
 gsap.from(".anim-right", {
   scrollTrigger: {
     trigger: ".anim-right",
-    toggleActions: "restart resume resume restart",
+    toggleActions: "restart resume resume resume ",
   },
   x: 200,
   delay: 2,
